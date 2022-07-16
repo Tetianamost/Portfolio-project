@@ -1,0 +1,17 @@
+/* font-family: 'Merienda', cursive;
+font-family: 'Source Serif Pro', serif; */
+:root {
+  --background-gradient: linear-gradient(
+    to bottom,
+    #e5eef7,
+    #d8e5f1,
+    #dbe7f3,
+    #b0dae9
+  );
+}
+
+h1,
+h2 {
+  font-family: "Source Serif Pro", serif;
+  background: var(--background-gradient);
+}
