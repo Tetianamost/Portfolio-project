@@ -7,7 +7,7 @@ font-family: 'Source Serif Pro', serif; */
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-background-gradient: linear-gradient(
-    to top,
+    180deg,
     #d9e6f3 0%,
     rgba(255, 255, 255, 0.05) 100%
   );
@@ -18,9 +18,6 @@ font-family: 'Source Serif Pro', serif; */
     #dbe7f3,
     #b0dae9
   );
-}
-body {
-  background: var(--primary-background-gradient);
 }
 
 h1,
@@ -79,8 +76,10 @@ p {
   color: var(--primary-color);
 }
 .images {
-  max-width: 360px;
+  max-width: 300px;
+  height: auto;
   padding: 100px 30px;
+  margin: 43px 166px;
   background: var(--secondary-color);
 }
 .project-description {
