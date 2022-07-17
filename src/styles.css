@@ -42,6 +42,9 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.navbar-bg {
+  background-color: #061b2d;
+}
 .hero {
   background: var(--secondary-background-gradient);
   text-align: center;
@@ -85,6 +88,11 @@ p {
 .project-description {
   padding: 110px 60px;
 }
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -100,4 +108,17 @@ p {
     padding: 0;
     text-align: center;
   }
+  .footer-text {
+    text-align: center;
+    font-size: 10px;
+  }
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 13px;
+}
+.footer-links {
+  text-decoration: none;
+  color: #2372b3;
 }
