@@ -31,11 +31,11 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 96px;
+  font-size: 81.25px;
   line-height: 1.5;
 }
 h2 {
-  font-size: 64px;
+  font-size: 63px;
 }
 p {
   font-family: var(--default-font-family);
@@ -100,11 +100,11 @@ p {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 43px;
     line-height: 2;
   }
   h2 {
-    font-size: 42px;
+    font-size: 40px;
   }
   .hero {
     padding: 80px 20px;
