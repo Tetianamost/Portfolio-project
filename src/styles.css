@@ -1,7 +1,17 @@
 /* font-family: 'Merienda', cursive;
 font-family: 'Source Serif Pro', serif; */
 :root {
-  --background-gradient: linear-gradient(
+  --primary-color: #072e4e;
+  --secondary-color: #edf5f8;
+  --heading-font-family: "Source Serif Pro", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-background-gradient: linear-gradient(
+    180deg,
+    #d9e6f3 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  --secondary-background-gradient: linear-gradient(
     to bottom,
     #e5eef7,
     #d8e5f1,
@@ -11,7 +21,43 @@ font-family: 'Source Serif Pro', serif; */
 }
 
 h1,
-h2 {
-  font-family: "Source Serif Pro", serif;
-  background: var(--background-gradient);
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-familyfont-family);
+  color: black;
+  font-weight: bold;
+}
+h1 {
+  font-size: 96px;
+}
+p {
+  font-family: var(--default-font-family);
+}
+.hero {
+  background: var(--secondary-background-gradient);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: var(--primary-color);
+}
+.btn-branding {
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
