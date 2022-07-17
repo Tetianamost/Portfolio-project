@@ -79,6 +79,10 @@ p {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
+.btn-branding-outline:hover {
+  background: var(--primary-color);
+  color: white;
+}
 .images {
   max-width: 300px;
   height: auto;
