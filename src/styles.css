@@ -93,6 +93,9 @@ p {
 .project-description {
   padding: 110px 60px;
 }
+.my-image {
+  border: 7px solid var(--primary-color);
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
