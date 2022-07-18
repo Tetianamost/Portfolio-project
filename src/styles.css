@@ -109,6 +109,24 @@ p {
 .content {
   margin: 30px;
 }
+.content h1 {
+  font-size: 54px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+}
 .my-name {
   color: var(--secondary-color);
 }
