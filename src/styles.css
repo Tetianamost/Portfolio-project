@@ -2,7 +2,8 @@
 font-family: 'Source Serif Pro', serif; */
 :root {
   --primary-color: #072e4e;
-  --secondary-color: #edf5f8;
+  --secondary-color: #0f99b7;
+  --default-color: #dbf5ff;
   --heading-font-family: "Source Serif Pro", serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -40,7 +41,7 @@ h2 {
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 35px;
 }
 .navbar-bg {
   background-color: #061b2d;
@@ -88,13 +89,31 @@ p {
   height: auto;
   padding: 100px 30px;
   margin: 43px 166px;
-  background: var(--secondary-color);
+  background: var(--default-color);
 }
 .project-description {
   padding: 110px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 54px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
+.my-name {
+  color: var(--secondary-color);
+}
 .my-image {
-  border: 7px solid var(--primary-color);
+  border: 7px solid var(--secondary-color);
+  max-width: 400px;
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -104,7 +123,7 @@ p {
 @media (max-width: 900px) {
   h1 {
     font-size: 43px;
-    line-height: 2;
+    line-height: 56px;
   }
   h2 {
     font-size: 40px;
@@ -115,6 +134,13 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 13px;
+  }
+  .my-image {
+    max-width: 350px;
   }
   .footer-text {
     text-align: center;
