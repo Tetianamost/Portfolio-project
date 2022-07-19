@@ -1,5 +1,7 @@
 /* font-family: 'Merienda', cursive;
 font-family: 'Source Serif Pro', serif; */
+/* font-family: 'Merienda', cursive;
+font-family: 'Source Serif Pro', serif; */
 :root {
   --primary-color: #072e4e;
   --secondary-color: #0f99b7;
@@ -92,6 +94,11 @@ p {
   margin: 43px 166px;
   background: var(--default-color);
 }
+.img-work {
+  max-width: 370px;
+  background: var(--default-color);
+  height: auto;
+}
 .badges {
   max-width: 150px;
   padding: 55px 30px;
@@ -116,6 +123,7 @@ p {
 }
 .content {
   margin: 30px;
+  margin-top: 80px;
 }
 .content h1 {
   font-size: 54px;
@@ -140,8 +148,9 @@ p {
 }
 .my-image {
   border: 7px solid var(--secondary-color);
-  max-width: 400px;
-  margin: 20px;
+  max-width: 470px;
+  margin: 20px 70px;
+  margin-top: 80px;
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -173,10 +182,18 @@ p {
   .align-badges {
     text-align: center;
   }
+  .img-work {
+    max-width: 400px;
+    padding: 20px o;
+    height: 290px;
+    margin: 5px 70px;
+  }
+
   .content-container {
     text-align: center;
-    padding: 30px;
+    padding: 0;
   }
+
   .my-image {
     max-width: 350px;
   }
