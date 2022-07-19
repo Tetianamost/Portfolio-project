@@ -86,10 +86,10 @@ p {
   color: white;
 }
 .images {
-  max-width: 300px;
+  max-width: 150px;
+  padding: 55px 30px;
   height: auto;
-  padding: 100px 30px;
-  margin: 43px 166px;
+  margin: 25px 155px;
   background: var(--default-color);
 }
 .project-description {
@@ -155,6 +155,12 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .images {
+    max-width: 70px;
+    padding: 20px 15px;
+    height: 100px;
+    margin: 5px 70px;
   }
   .content-container {
     text-align: center;
