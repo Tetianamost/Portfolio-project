@@ -112,6 +112,13 @@ p {
 .project-description {
   padding: 110px 60px;
 }
+.skills {
+  background: var(--main-background-gradient);
+}
+
+.skills ul {
+  list-style-type: "✔️ ";
+}
 .content-container {
   padding: 100px 20px;
   padding-bottom: 70px;
@@ -151,17 +158,11 @@ p {
   animation: text 2s alternate infinite;
 }
 @keyframes text {
-  25% {
+  0% {
     color: var(--secondary-color);
   }
-  50% {
-    color: #0c98b8;
-  }
-  75% {
-    color: rgb(19, 169, 203);
-  }
   100% {
-    color: #0dc0e8;
+    color: var(--primary-color);
   }
 }
 .my-image {
@@ -169,18 +170,18 @@ p {
   max-width: 470px;
   margin: 20px 70px;
   margin-top: 80px;
-  animation: image 2s alternate infinite;
+  animation: image 6s alternate infinite;
 }
 
 @keyframes image {
-  25% {
+  0% {
     border: 7px solid var(--secondary-color);
   }
   50% {
     border: 7px solid #0c98b8;
   }
   75% {
-    border: 7px solid rgb(19, 169, 203);
+    border: 7px solid var(--primary-color);
   }
   100% {
     border: 7px solid #0dc0e8;
@@ -227,6 +228,17 @@ p {
     text-align: center;
     padding: 0;
     margin: 0 -8px;
+  }
+  .skills {
+    background: none;
+    text-align: center;
+  }
+  .skills h1 {
+    font-size: 35px;
+  }
+
+  .skills-units {
+    background: var(--sub-background-gradient);
   }
   .btn-branding-outline {
     background: var(--primary-color);
