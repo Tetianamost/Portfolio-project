@@ -217,7 +217,7 @@ p {
     text-align: center;
   }
   .img-work {
-    max-width: 400px;
+    max-width: 350px;
     padding: 20px o;
     height: 290px;
     margin: 5px 70px;
@@ -226,7 +226,7 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
-    margin: 0 -27px;
+    margin: 0 -8px;
   }
   .btn-branding-outline {
     background: var(--primary-color);
