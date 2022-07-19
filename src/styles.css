@@ -104,6 +104,7 @@ p {
 }
 .content-container {
   padding: 160px 20px;
+  padding-bottom: 70px;
 }
 .content-container h1 {
   font-size: 54px;
@@ -164,10 +165,13 @@ p {
     text-align: center;
   }
   .badges {
-    max-width: 70px;
+    max-width: 170px;
     padding: 20px 15px;
-    height: 100px;
+    height: 130px;
     margin: 5px 70px;
+  }
+  .align-badges {
+    text-align: center;
   }
   .content-container {
     text-align: center;
