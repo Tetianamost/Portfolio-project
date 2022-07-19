@@ -145,12 +145,43 @@ p {
 }
 .my-name {
   color: var(--secondary-color);
+  animation: text 2s infinite;
+}
+@keyframes text {
+  25% {
+    color: var(--secondary-color);
+  }
+  50% {
+    color: #0c98b8;
+  }
+  75% {
+    color: rgb(19, 169, 203);
+  }
+  100% {
+    color: #0dc0e8;
+  }
 }
 .my-image {
   border: 7px solid var(--secondary-color);
   max-width: 470px;
   margin: 20px 70px;
   margin-top: 80px;
+  animation: image 2s infinite;
+}
+
+@keyframes image {
+  25% {
+    border: 7px solid var(--secondary-color);
+  }
+  50% {
+    border: 7px solid #0c98b8;
+  }
+  75% {
+    border: 7px solid rgb(19, 169, 203);
+  }
+  100% {
+    border: 7px solid #0dc0e8;
+  }
 }
 @media (prefers-reduced-motion: no-preference) {
   :root {
