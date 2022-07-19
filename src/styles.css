@@ -10,9 +10,9 @@ font-family: 'Source Serif Pro', serif; */
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
-    180deg,
-    #f0f9fe 0%,
-    rgba(212, 244, 255, 0.05) 100%
+    360deg,
+    #caedff 10%,
+    rgba(198, 241, 255, 0.05) 26%
   );
   --main-background-gradient: linear-gradient(
     to top,
@@ -65,6 +65,16 @@ p {
   font-size: 24px;
   line-height: 1.5;
   color: var(--primary-color);
+}
+.row-block {
+  background: var(--sub-background-gradient);
+}
+.row-block-reverse {
+  background: linear-gradient(
+    180deg,
+    #caedff 10%,
+    rgba(198, 241, 255, 0.05) 26%
+  );
 }
 
 .btn-branding {
@@ -145,7 +155,7 @@ p {
 }
 .my-name {
   color: var(--secondary-color);
-  animation: text 2s infinite;
+  animation: text 2s alternate infinite;
 }
 @keyframes text {
   25% {
@@ -166,7 +176,7 @@ p {
   max-width: 470px;
   margin: 20px 70px;
   margin-top: 80px;
-  animation: image 2s infinite;
+  animation: image 2s alternate infinite;
 }
 
 @keyframes image {
