@@ -69,13 +69,6 @@ p {
 .row-block {
   background: var(--sub-background-gradient);
 }
-.row-block-reverse {
-  background: linear-gradient(
-    180deg,
-    #caedff 10%,
-    rgba(198, 241, 255, 0.05) 26%
-  );
-}
 
 .btn-branding {
   background: var(--primary-color);
@@ -237,6 +230,7 @@ p {
 
   .my-image {
     max-width: 350px;
+    margin: 20px 33px;
   }
   .footer-text {
     text-align: center;
