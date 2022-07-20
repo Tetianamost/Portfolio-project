@@ -181,7 +181,7 @@ p {
 .content p {
   font-size: 18px;
 }
-.my-name {
+.highlighted-text {
   color: var(--secondary-color);
   animation: text 2s alternate infinite;
 }
