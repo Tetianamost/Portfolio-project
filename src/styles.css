@@ -3,7 +3,7 @@
   --secondary-color: #0f99b7;
   --default-color: #dbf5ff;
   --heading-font-family: "Martel Sans", sans-serif;
-  --default-font-family: "Roboto", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
     360deg,
@@ -39,7 +39,7 @@ h2 {
 }
 p {
   font-family: var(--default-font-family);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 35px;
 }
 .navbar-bg {
