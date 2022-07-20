@@ -18,7 +18,9 @@
     #b0dae9
   );
 }
-
+body {
+  margin-bottom: 60px;
+}
 h1,
 h2,
 h3,
