@@ -138,6 +138,13 @@ p {
 .coder-skills ul {
   list-style: none;
 }
+.main-box {
+  background: linear-gradient(
+    180deg,
+    #caedff 10%,
+    rgba(198, 241, 255, 0.05) 25%
+  );
+}
 
 .content-container {
   padding: 100px 20px;
