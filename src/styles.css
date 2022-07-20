@@ -1,13 +1,9 @@
-/* font-family: 'Merienda', cursive;
-font-family: 'Source Serif Pro', serif; */
-/* font-family: 'Merienda', cursive;
-font-family: 'Source Serif Pro', serif; */
 :root {
   --primary-color: #072e4e;
   --secondary-color: #0f99b7;
   --default-color: #dbf5ff;
   --heading-font-family: "Martel Sans", sans-serif;
-  --default-font-family: "Poppins", sans-serif;
+  --default-font-family: "Roboto", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
     360deg,
@@ -34,7 +30,7 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 81.25px;
+  font-size: 82.25px;
   line-height: 1.5;
 }
 h2 {
@@ -65,6 +61,9 @@ p {
   font-size: 24px;
   line-height: 1.5;
   color: var(--primary-color);
+}
+.desc-content {
+  margin: 0 15%;
 }
 .row-block {
   background: var(--sub-background-gradient);
@@ -228,6 +227,7 @@ p {
     font-size: 40px;
     line-height: 30px;
   }
+
   .hero {
     padding: 80px 20px;
   }
@@ -285,9 +285,7 @@ p {
 }
 .contact-link {
   text-decoration: none;
-  background: #013428;
-  border: 1px solid #01271e;
-  color: #f6fdff;
+  color: #142a2f;
 }
 .footer-text {
   text-align: center;
