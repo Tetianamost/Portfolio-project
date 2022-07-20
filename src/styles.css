@@ -267,7 +267,8 @@ p {
     font-size: 14px;
   }
   .content h1 {
-    line-height: 60px;
+    line-height: 57px;
+    font-size: 39px;
   }
   .skills {
     background: none;
