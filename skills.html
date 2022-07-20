@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Source+Serif+Pro:ital,wght@0,600;1,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;1,400&family=Source+Serif+Pro:ital,wght@0,600;1,600&display=swap"
       rel="stylesheet"
     />
     <script
@@ -31,7 +31,7 @@
     ></script>
     <title>Document</title>
   </head>
-  <body  >
+  <body>
     <nav
       class="navbar py-2 py-lg-3 navbar-expand-lg navbar-dark navbar-bg fixed-top"
     >
@@ -51,10 +51,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/index.html#projects">Projects</a>
+              <a class="nav-link" href="/index.html#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="/skills.html">Skills</a>
@@ -70,11 +70,11 @@
       </div>
     </nav>
     <div class="container-fluid skills">
-    <div class="content-container">
-      <div class="content ">
-         <div class="row skills-units">
-            <div class="col-md-6 mb-4 .d-md-inline-fle">
-              <h1>AWS Cloud networking</h1>
+      <div class="content-container">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-6 mb-4 .d-md-inline-flex skills-units">
+              <h1 class="my-name">AWS Cloud networking</h1>
               <ul>
                 <li>
                   Ability to design and maintain network architecture for all
@@ -86,8 +86,8 @@
                 </li>
               </ul>
             </div>
-            <div class="col-md-6 mb-4 .d-md-inline-fle">
-              <h1>AWS Solution architecture</h1>
+            <div class="col-md-6 mb-4 .d-md-inline-flex skills-units">
+              <h1 class="my-name">AWS Solution architecture</h1>
               <ul>
                 <li>
                   Have a comprehensive understanding of AWS services and
@@ -106,28 +106,121 @@
               </ul>
             </div>
           </div>
-      <div class="row skills-units">
-        <div class="col-md-6 mb-4 .d-md-inline-fle">
-          <h1>Cisco network administration</h1>
-          <ul>
-            <li>Knowledge and skills related to network fundamentals.</li>
-            <li>
-              Network access, IP connectivity, IP services, security
-              fundamentals, and automation and programmability.
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-6 mb-4 .d-md-inline-flex">
-          <h1>Frontend Developer</h1>
-          <ul>
-            <li>HTML, CSS, Bootstrap</li>
-            <li>JavaScript, Ajax, API</li>
-          </ul>
-        </div>
-        </div>
+          <div class="row">
+            <div class="col-md-6 mb-4 .d-md-inline-flex skills-units">
+              <h1 class="my-name">Cisco network administration</h1>
+              <ul>
+                <li>Knowledge and skills related to network fundamentals.</li>
+                <li>
+                  Network access, IP connectivity, IP services, security
+                  fundamentals, and automation and programmability.
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 mb-4 .d-md-inline-flex skills-units">
+              <h1 class="my-name">Frontend Developer</h1>
+              <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>JavaScript, Ajax, API</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <div class="coder-skills-wrapper">
+      <ul class="coder-skills">
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/html.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">HTML</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/css.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">CSS</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/bs.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">Bootstrap</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/editor.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">Editor</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/github.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">GitHub</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/api.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">API</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/js.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">JavaScript</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/aws.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">AWS</p>
+          </span>
+        </li>
+        <li class="coder-skill">
+          <span class="coder-skill-img">
+            <img
+              src="/media/skill/net.png"
+              alt="Skills i learned"
+              class="img-fluid center mb-2 false"
+            />
+            <p class="d-block text-center">Cloud Network</p>
+          </span>
+        </li>
+      </ul>
     </div>
   </body>
 </html>

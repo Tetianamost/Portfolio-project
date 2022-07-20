@@ -6,7 +6,7 @@ font-family: 'Source Serif Pro', serif; */
   --primary-color: #072e4e;
   --secondary-color: #0f99b7;
   --default-color: #dbf5ff;
-  --heading-font-family: "Source Serif Pro", serif;
+  --heading-font-family: "Martel Sans", sans-serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
@@ -119,6 +119,26 @@ p {
 .skills ul {
   list-style-type: "✔️ ";
 }
+.coder-skills {
+  text-align: center;
+}
+.coder-skills img {
+  border-radius: 50%;
+  background: var(--default-color);
+  margin: 0 auto;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+}
+.coder-skill {
+  display: inline-block;
+  margin: 15px 20px 0 0;
+}
+.coder-skills ul {
+  list-style: none;
+}
+
 .content-container {
   padding: 100px 20px;
   padding-bottom: 70px;
