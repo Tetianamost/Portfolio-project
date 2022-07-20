@@ -43,7 +43,7 @@ h2 {
 }
 p {
   font-family: var(--default-font-family);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 35px;
 }
 .navbar-bg {
@@ -178,7 +178,7 @@ p {
   margin: 20px 0 0;
 }
 .content p {
-  font-size: 14px;
+  font-size: 18px;
 }
 .my-name {
   color: var(--secondary-color);
@@ -256,6 +256,9 @@ p {
     padding: 0;
     margin: 0 -8px;
   }
+  .content p {
+    font-size: 14px;
+  }
   .skills {
     background: none;
     text-align: center;
@@ -280,7 +283,12 @@ p {
     font-size: 10px;
   }
 }
-
+.contact-link {
+  text-decoration: none;
+  background: #013428;
+  border: 1px solid #01271e;
+  color: #f6fdff;
+}
 .footer-text {
   text-align: center;
   font-size: 15px;
