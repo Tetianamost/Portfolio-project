@@ -229,7 +229,9 @@ p {
     font-size: 40px;
     line-height: 30px;
   }
-
+  p {
+    font-size: 15px;
+  }
   .hero {
     padding: 80px 20px;
   }
