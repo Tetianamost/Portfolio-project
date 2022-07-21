@@ -263,6 +263,13 @@ p {
     padding: 0;
     margin: 0 -8px;
   }
+  .content-container h1 {
+    font-size: 33px;
+    line-height: 39px;
+  }
+  .work {
+    margin-top: 80px;
+  }
   .content p {
     font-size: 14px;
   }
