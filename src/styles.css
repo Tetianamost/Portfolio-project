@@ -78,6 +78,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -86,6 +87,7 @@ p {
   padding: 15px 30px;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 .btn-branding-outline:hover {
   background: var(--primary-color);
@@ -206,7 +208,7 @@ footer .social-links a {
   color: var(--primary-color);
   background: var(--default-color);
   border-radius: 50%;
-  font-size: 27px;
+  font-size: 24px;
   transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover,
