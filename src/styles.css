@@ -111,7 +111,7 @@ p {
   background: var(--default-color);
 }
 .project-description {
-  padding: 110px 60px;
+  padding: 100px 60px;
 }
 .skills {
   background: var(--main-background-gradient);
