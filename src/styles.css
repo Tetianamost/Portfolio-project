@@ -50,7 +50,7 @@ p {
 .hero {
   background: var(--main-background-gradient);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -69,6 +69,7 @@ p {
 }
 .row-block {
   background: var(--sub-background-gradient);
+  margin-top: -50px;
 }
 
 .btn-branding {
@@ -150,7 +151,7 @@ p {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
   padding-bottom: 0;
 }
 .content-container h1 {
@@ -301,6 +302,9 @@ footer .social-links a:hover,
   }
   .work {
     margin-top: 80px;
+  }
+  .row-block {
+    margin-top: 40px;
   }
   .content p {
     font-size: 14px;
