@@ -95,10 +95,9 @@ p {
   color: white;
 }
 .images {
-  max-width: 300px;
-  padding: 90px 30px;
-  height: auto;
-  margin: 280px 140px;
+  width: 300px;
+  height: 300px;
+  padding: 30px 30px;
   background: var(--default-color);
 }
 .img-work {
