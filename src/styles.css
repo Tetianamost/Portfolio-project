@@ -106,13 +106,7 @@ p {
   background: var(--default-color);
   height: auto;
 }
-.badges {
-  max-width: 150px;
-  padding: 55px 30px;
-  height: auto;
-  margin: 25px 155px;
-  background: var(--default-color);
-}
+
 .project-description {
   padding: 100px 60px;
 }
@@ -134,6 +128,11 @@ p {
   width: 60px;
   height: 60px;
   text-align: center;
+}
+.coder-skill .cert-img {
+  width: 210px;
+  height: 210px;
+  border-radius: 70%;
 }
 .coder-skill {
   display: inline-block;
@@ -275,15 +274,7 @@ footer .social-links a:hover,
     padding: 0;
     text-align: center;
   }
-  .badges {
-    max-width: 170px;
-    padding: 20px 15px;
-    height: 130px;
-    margin: 5px 70px;
-  }
-  .align-badges {
-    text-align: center;
-  }
+
   .img-work {
     max-width: 350px;
     padding: 20px o;
@@ -320,7 +311,11 @@ footer .social-links a:hover,
   .skills h1 {
     font-size: 35px;
   }
-
+  .coder-skill .cert-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+  }
   .skills-units {
     background: var(--sub-background-gradient);
   }
