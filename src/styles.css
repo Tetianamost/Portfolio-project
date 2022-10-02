@@ -7,8 +7,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
     360deg,
-    #ebffff 10%,
-    rgba(198, 241, 255, 0.05) 26%
+    #9bdcdc 10%,
+    rgba(69, 150, 167, 0.186) 26%
   );
   --main-background-gradient: linear-gradient(
     to top,
@@ -32,10 +32,10 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 54px;
+  font-size: 60px;
 }
 h2 {
-  font-size: 47px;
+  font-size: 50px;
 }
 h3 {
   font-size: 40px;
@@ -89,7 +89,7 @@ a {
   color: var(--primary-color);
 }
 .card {
-  background: var(--main-background-gradient);
+  background: var(--sub-background-gradient);
   width: 85%;
   box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
 }
@@ -138,6 +138,7 @@ a {
 } */
 .skills {
   background: var(--main-background-gradient);
+  margin-top: 100px;
 }
 
 .skills ul {
@@ -209,12 +210,12 @@ a {
   position: relative;
   animation: runningLine 30s infinite linear forwards;
 }
-.slidein-text {
+.slidein-text,
+.slidein-text-sm {
   color: #090a1a;
   opacity: 0.9;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
-
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
@@ -327,13 +328,13 @@ footer .social-links a:hover,
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 49px;
   }
   h2 {
-    font-size: 34px;
+    font-size: 40px;
   }
   h3 {
-    font-size: 25px;
+    font-size: 35px;
   }
   .logo {
     width: 40px;
@@ -343,6 +344,9 @@ footer .social-links a:hover,
     padding: 80px 20px;
   }
   .slidein-text {
+    font-size: 35px;
+  }
+  .slidein-text-sm {
     font-size: 25px;
   }
   .card-title {
@@ -369,10 +373,6 @@ footer .social-links a:hover,
     margin: 5px 70px;
   }
 
-  .content-container {
-    padding: 0;
-    margin: 0 -8px;
-  }
   .content-container h1 {
     font-size: 33px;
     line-height: 39px;
