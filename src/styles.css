@@ -1,21 +1,21 @@
 :root {
   --primary-color: #072e4e;
   --secondary-color: #0f99b7;
-  --default-color: #dbf5ff;
+  --default-color: #dbfaff;
   --heading-font-family: "Martel Sans", sans-serif;
   --default-font-family: "Poppins", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
     360deg,
-    #caedff 10%,
+    #caffff 10%,
     rgba(198, 241, 255, 0.05) 26%
   );
   --main-background-gradient: linear-gradient(
     to top,
-    #e5eef7,
-    #d8e5f1,
-    #dbe7f3,
-    #b0dae9
+    #e5f5f7,
+    #a7f4f8,
+    #c3fff7,
+    #b0e9e7
   );
 }
 body {
@@ -202,7 +202,38 @@ a {
 .running-line {
   overflow: hidden;
   position: relative;
-  animation: runningLine 25s infinite linear forwards;
+  animation: runningLine 30s infinite linear forwards;
+}
+.slidein-text {
+  color: #090a1a;
+  opacity: 0.9;
+  font-size: 35px;
+  font-weight: bold;
+
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation-name: slidein;
+  animation-duration: 2.7s;
+}
+.rotating {
+  animation: rotating 10s linear infinite;
+}
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slidein {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 @keyframes runningLine {
   0% {
@@ -293,6 +324,9 @@ footer .social-links a:hover,
   .hero {
     padding: 80px 20px;
   }
+  .slidein-text {
+    font-size: 25px;
+  }
   .btn-branding {
     background: var(--primary-color);
     color: white;
@@ -364,7 +398,7 @@ footer .social-links a:hover,
   }
 
   .running-line {
-    animation: runningLine 15s infinite linear forwards;
+    animation: runningLine 25s infinite linear forwards;
     position: relative;
   }
   @keyframes runningLine {
