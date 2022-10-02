@@ -7,15 +7,15 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --sub-background-gradient: linear-gradient(
     360deg,
-    #caffff 10%,
+    #ebffff 10%,
     rgba(198, 241, 255, 0.05) 26%
   );
   --main-background-gradient: linear-gradient(
     to top,
     #e5f5f7,
-    #a7f4f8,
-    #c3fff7,
-    #b0e9e7
+    #cef0f1,
+    #defbf7,
+    #cef3f2
   );
 }
 body {
@@ -50,16 +50,14 @@ a {
   font-size: 30px;
 }
 .home-projects a:hover {
-  color: #49e4e9;
+  color: #006a4a;
   font-size: 30px;
 }
 .home-projects .img-fluid {
-  width: 45%;
-  height: 45%;
+  width: 60%;
+  height: 60%;
 }
-.tab {
-  background-color: #0f99b7;
-}
+
 .logo {
   width: 60px;
   height: 60px;
@@ -83,8 +81,9 @@ a {
   color: var(--primary-color);
 }
 .card {
-  background: #3fa7bf;
-  width: 75%;
+  background: var(--main-background-gradient);
+  width: 85%;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
 }
 .row-block {
   background: var(--sub-background-gradient);
@@ -158,8 +157,8 @@ a {
 .main-box {
   background: linear-gradient(
     180deg,
-    #caedff 10%,
-    rgba(198, 241, 255, 0.05) 25%
+    #e6fcfd 10%,
+    rgba(198, 255, 245, 0.05) 25%
   );
 }
 
@@ -326,6 +325,9 @@ footer .social-links a:hover,
   }
   .slidein-text {
     font-size: 25px;
+  }
+  .card-title {
+    font-size: smaller;
   }
   .btn-branding {
     background: var(--primary-color);
