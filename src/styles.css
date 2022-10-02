@@ -39,6 +39,27 @@ p {
 p .paragraph {
   max-width: 600px;
 }
+.home-projects li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.home-projects a {
+  color: #07345b;
+  font-size: 30px;
+}
+.home-projects a:hover {
+  color: #49e4e9;
+  font-size: 30px;
+}
+.home-projects .img-fluid {
+  width: 45%;
+  height: 45%;
+}
+.tab {
+  background-color: #0f99b7;
+}
 .logo {
   width: 60px;
   height: 60px;
