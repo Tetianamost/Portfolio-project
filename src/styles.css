@@ -31,7 +31,15 @@ h6 {
   color: black;
   font-weight: bold;
 }
-
+h1 {
+  font-size: 54px;
+}
+h2 {
+  font-size: 47px;
+}
+h3 {
+  font-size: 40px;
+}
 p {
   font-family: var(--default-font-family);
   font-size: 18px;
@@ -85,10 +93,10 @@ a {
   width: 85%;
   box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
 }
-.row-block {
+/* .row-block {
   background: var(--sub-background-gradient);
   margin-top: -50px;
-}
+} */
 
 .btn-branding {
   background: var(--primary-color);
@@ -109,6 +117,10 @@ a {
   background: var(--primary-color);
   color: white;
 }
+.btn-branding:hover {
+  background: var(--secondary-color);
+  color: white;
+}
 .images {
   width: 300px;
   height: 300px;
@@ -121,9 +133,9 @@ a {
   height: auto;
 }
 
-.project-description {
+/* .project-description {
   padding: 100px 60px;
-}
+} */
 .skills {
   background: var(--main-background-gradient);
 }
@@ -162,10 +174,6 @@ a {
   );
 }
 
-.content-container {
-  padding: 60px 20px;
-  padding-bottom: 0;
-}
 .content-container h1 {
   font-size: 54px;
   line-height: 80px;
@@ -189,11 +197,9 @@ a {
   font-family: var(--default-font-family);
   font-size: 22px;
   line-height: 1.5;
-  margin: 20px 0 0;
+  /* margin: 20px 0 0; */
 }
-.content p {
-  font-size: 18px;
-}
+
 .running-line-container {
   overflow: hidden;
 }
@@ -256,6 +262,10 @@ a {
   text-decoration: none;
   color: #142a2f;
 }
+.work {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
 footer {
   margin-top: 80px;
 }
@@ -316,6 +326,15 @@ footer .social-links a:hover,
   }
 }
 @media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 25px;
+  }
   .logo {
     width: 40px;
     height: 40px;
@@ -338,10 +357,10 @@ footer .social-links a:hover,
   p .paragraph {
     max-width: 400px;
   }
-  .project-description {
+  /* .project-description {
     padding: 0;
     text-align: center;
-  }
+  } */
 
   .img-work {
     max-width: 350px;
@@ -360,10 +379,11 @@ footer .social-links a:hover,
   }
   .work {
     margin-top: 80px;
+    margin-bottom: 10px;
   }
-  .row-block {
+  /* .row-block {
     margin-top: 20px;
-  }
+  } */
   .content p {
     font-size: 14px;
   }
