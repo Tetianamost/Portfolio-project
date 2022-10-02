@@ -82,7 +82,10 @@ a {
 
   color: var(--primary-color);
 }
-
+.card {
+  background: #3fa7bf;
+  width: 75%;
+}
 .row-block {
   background: var(--sub-background-gradient);
   margin-top: -50px;
