@@ -369,7 +369,7 @@ footer .social-links a:hover,
   }
   @keyframes runningLine {
     0% {
-      transform: translate(0, 100%);
+      transform: translate(0, -100%);
     }
 
     50% {
@@ -377,7 +377,7 @@ footer .social-links a:hover,
     }
 
     100% {
-      transform: translate(0, -100%);
+      transform: translate(0, 100%);
     }
   }
 }
