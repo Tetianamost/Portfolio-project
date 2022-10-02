@@ -271,11 +271,11 @@ footer {
   margin-top: 80px;
 }
 .footer-text {
-  font-size: 17px;
+  font-size: 13px;
 }
 .footer-links {
   text-decoration: none;
-  color: #2372b3;
+  color: var(--secondary-color);
 }
 footer .social-links a {
   margin: 0 10px;
@@ -286,9 +286,10 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover,
-.contact-link:hover {
-  color: white;
-  background: var(--primary-color);
+.contact-link:hover,
+.footer-links:hover {
+  color: rgb(2, 23, 20);
+  background: var(--default-color);
 }
 
 @keyframes text {
@@ -416,7 +417,7 @@ footer .social-links a:hover,
   }
   .footer-text {
     text-align: center;
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .running-line {
