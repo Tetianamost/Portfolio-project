@@ -248,7 +248,7 @@ const ddb = new AWS.DynamoDB({apiVersion: '2012-08-10'});
 const tableName = 'visitors';
 
 // Set the attribute name for the counter
-const attributeName = 'counter';
+const attributeName = 'visit_count';
 
 function saveCounter(pkValue, skValue) {
   // Get the value of the counter element
@@ -282,7 +282,6 @@ function saveCounter(pkValue, skValue) {
     }
   });
 }
-
 
       
     </script>
